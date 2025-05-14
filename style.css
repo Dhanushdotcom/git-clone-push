@@ -1,0 +1,124 @@
+body{
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: black solid 1px;
+    align-items: center;
+  }
+  .navbar__s1__title{
+    color: blueviolet;
+  }
+  .navbar__s2{
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items:center ;
+  }
+  .navbar__s2 input{
+    border: 0;
+    width: 100%;
+    font-size: 16px;
+  }
+  .navbar__s2 input:focus{
+    outline: none;
+
+  }
+  .navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+
+  }
+.categories p{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.sale-img img{
+    width: 100%;
+
+}
+.recommended{
+  padding: 10px;
+}
+.recommended__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap:wrap ;
+  padding: 10px;
+  text-align: center;
+
+}
+.course-card{
+  width: 300px;
+}
+.course-card img{
+  height: 50%;
+  width: 100%;
+}
+.topics{
+  padding: 20px;
+}
+.topics__container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.topics__container p{
+  border: solid black 2px;
+  padding: 10px;
+  flex-grow: 1;
+  flex-basis: 25%;
+  
+}
+.popular{
+  padding: 20px;
+}
+.popular__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer__one{
+display: flex;
+gap: 10px;
+}
+.footer__two{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer__one p{
+  margin: 20px;
+}
